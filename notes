@@ -1,0 +1,40 @@
+Setup Redux :
+$ npm install redux react-redux
+$ npm install redux-logger
+$ npm install axios redux-thunk
+
+//for router install react-router-dom 
+$ npm install react-router-dom
+
+1. install redux devtools
+add extension to crome
+2. https://github.com/zalmoxisus/redux-devtools-extension
+goto uses section ->goto 1.3 Use redux-devtools-extension package from npm
+$ npm install --save redux-devtools-extension
+
+3.install in store.js file
+import { composeWithDevTools } from 'redux-devtools-extension';
+in store.js file
+4.const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(logger)))
+
+5. how to make API calls with redux
+two packages need to install
+(i)axios (request to an API end point)
+(ii)redux-thunk (define async action creator)
+
+6.$ npm install axios redux-thunk
+
+7. install react-icons
+npm install react-icons --save
+
+8.install redux-form
+npm install --save redux-form
+
+9.
+
+
+
+
+
+
+
